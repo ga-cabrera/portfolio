@@ -22,6 +22,8 @@ body{
  .content-section{
      padding-top:7.5rem;
      padding-bottom:7.5rem;
+     background-color:#303236;
+     color: rgb(245, 245, 245);
     }
  
  .content-section-heading h2{
@@ -63,7 +65,7 @@ body{
     height:50px;
     text-align:center;
     color:#fff;
-    background:rgba(52,58,64,.5);
+    background:rgba(28, 31, 34, 0.5);
     line-height:45px;
 }
 
@@ -87,8 +89,10 @@ body{
     height:auto;
     padding-top:8rem;
     padding-bottom:8rem;
+    color: rgb(245, 245, 245);
     background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%),
-    url(../img/bg-masthead.jpg);
+    url(../img/bg-webDesign.jpeg);
+    box-shadow:  0px 5px 40px #161616;
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -117,7 +121,7 @@ body{
     height:100%;
     transition:all .4s ease 0s;
     transform:translateX(250px);
-    background:#1d809f;
+    background:rgb(146, 53, 69);
     border-left:1px solid rgba(255,255,255,.1);
 }
 
@@ -285,7 +289,7 @@ body{
     }
     
     .portfolio-item:hover .caption{
-        background-color:rgba(29,128,159,.9);-webkit-clip-path:inset(2rem);
+        background-color:rgb(124, 46, 59);-webkit-clip-path:inset(2rem);
         clip-path:inset(2rem);
     }
 }
@@ -301,44 +305,44 @@ footer.footer .social-link{
     width:4rem;
     line-height:4.3rem;
     font-size:1.5rem;
-    background-color:#1d809f;
+    background-color:rgb(146, 53, 69);
     transition:background-color .15s ease-in-out;
     box-shadow:0 3px 3px 0 rgba(0,0,0,.1);
 }
 
 footer.footer .social-link:hover{
-    background-color:#155d74;
+    background-color:rgb(146, 53, 69);
     text-decoration:none;
 }
 
 a{
-    color:#1d809f;
+    color:rgb(124, 46, 59);;
 }
 
 a:active,a:focus,a:hover{
-    color:#155d74;
+    color:rgb(124, 46, 59);;
 }
 
 .btn-primary{
-    background-color:#1d809f!important;
-    border-color:#1d809f!important;
+    background-color:rgb(146, 53, 69)!important;
+    border-color:rgb(146, 53, 69)!important;
     color:#fff!important;
 }
 
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
-    background-color:#155d74!important;
-    border-color:#155d74!important;
+    background-color:rgb(124, 46, 59)!important;
+    border-color:rgb(124, 46, 59)!important;
 }
 
 .btn-secondary{
-    background-color:#ecb807!important;
-    border-color:#ecb807!important;
+    background-color:rgb(146, 53, 69)!important;
+    border-color:rgb(146, 53, 69)!important;
     color:#fff!important;
 }
 
 .btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{
-    background-color:#ba9106!important;
-    border-color:#ba9106!important;
+    background-color:rgb(124, 46, 59)!important;
+    border-color:rgb(124, 46, 59)!important;
 }
 
 .btn-dark{
@@ -351,13 +355,13 @@ a:active,a:focus,a:hover{
 }
 
 .bg-primary{
-    background-color:#1d809f!important;
+    background-color:rgb(146, 53, 69)!important;
 }
 
 .text-primary{
-    color:#1d809f!important;
+    color:rgb(146, 53, 69)!important;
 }
 
 .text-secondary{
-    color:#ecb807!important;
+    color:rgb(146, 53, 69)!important;
 }
